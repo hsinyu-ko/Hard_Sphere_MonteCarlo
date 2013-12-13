@@ -1,0 +1,6 @@
+400  3000  350000  200000 ! N, iTst, iEQ, iPd
+100                       ! bin
+0.45  0.45  0.04          ! eta, res_eta, dr
+'fcc'                     ! init method: fcc (>limit of RSA ~0.42)
+.true.                    ! tRes
+! comments: the equilibrium is reached from scratch with iEQ > 300000

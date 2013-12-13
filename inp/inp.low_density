@@ -1,0 +1,6 @@
+400  3000  200000  300000 ! N, iTst, iEQ, iPd
+100                       ! bin
+0.20  0.20  0.08          ! eta, res_eta, dr (0.2, 0.08)
+'cub'                     ! init method use simple cubic
+.true.                    ! tRes
+! comments: the equilibrium is reached from scratch with iEQ > 100000
